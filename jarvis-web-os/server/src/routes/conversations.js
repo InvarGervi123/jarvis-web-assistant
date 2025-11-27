@@ -1,6 +1,6 @@
 const express = require('express');
 const auth = require('../middleware/auth');
-const Conversation = require('../models/Conversation');
+const Conversation = require('../models/conversation');
 const aiService = require('../services/aiService');
 
 const router = express.Router();
